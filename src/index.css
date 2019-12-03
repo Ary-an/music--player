@@ -3,8 +3,23 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgba(17, 76, 177, 1);
+  background: -webkit-linear-gradient(
+    right,
+    rgba(17, 76, 177, 1),
+    rgba(11, 29, 32, 1)
+  );
+
+  background: -moz-linear-gradient(
+    right,
+    rgba(17, 76, 177, 1),
+    rgba(11, 29, 32, 1)
+  );
+  background: linear-gradient(
+    to left,
+    rgba(17, 76, 177, 1),
+    rgba(11, 29, 32, 1)
+  );
 }
 
 code {
