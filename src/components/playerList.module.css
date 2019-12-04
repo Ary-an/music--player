@@ -34,16 +34,18 @@
   display: flex;
   align-items: center;
   border-radius: 8px;
-  background-image: linear-gradient(to right, #000428, #004e92);
+  background: linear-gradient(to right, #000428, #004e92);
   box-shadow: 0 4px 5px #000428;
-
+  box-sizing: border-box;
   cursor: pointer;
 
-  transition: all ease 0.8s;
+  transition: all ease 1s;
 }
 
 .playerListGrid:hover {
-  background-image: linear-gradient(to right, #000428, #004e92, dodgerblue);
+  background: linear-gradient(to right, #000428, #004e92, dodgerblue);
+
+  max-width: 100%;
 }
 
 .playerListGrid:first-of-type {
@@ -78,10 +80,10 @@
 
 @media only screen and (max-width: 800px) {
   .info > p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .info > p:first-of-type {
-    font-size: 18px;
+    font-size: 14px;
   }
 }

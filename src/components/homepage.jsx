@@ -182,7 +182,11 @@ export default class Homepage extends React.Component {
             </div>
           </div>
         ) : (
-          <img className={classes.loadimg} src={this.loadimg} />
+          <img
+            className={classes.loadimg}
+            src={this.loadimg}
+            alt="loading image"
+          />
         )}
       </>
     );
